@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+app/build/
+
+# Local configuration (machine-specific SDK path)
+local.properties
+
+# IDE
+.idea/
+*.iml
+captures/
+.kotlin/
+
+# Superseded raw Gemini scaffold, migrated into app/src/main
+tether_frontend/
+
+# OS
+.DS_Store
+Thumbs.db

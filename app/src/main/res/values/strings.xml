@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Tether</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Status</string>
+    <string name="nav_pairing">Pair</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="status_connected">CONNECTED</string>
+    <string name="status_disconnected">DISCONNECTED</string>
+    <string name="status_connected_desc">Paired device is in range and secure.</string>
+    <string name="status_disconnected_desc">Connection lost. Alert protocol ready.</string>
+    <string name="device_label">Paired Device</string>
+    <string name="last_sync_label">Last Sync: %1$s</string>
+    <string name="no_device_paired">No device currently paired</string>
+    <string name="btn_test_alert">Send Test Alert</string>
+    <string name="test_alert_desc">Simulate an alert flow without contacting emergency services.</string>
+    <string name="quick_access">Quick Access</string>
+    <string name="qa_contacts_title">Trusted Contacts</string>
+    <string name="qa_contacts_desc">Manage who gets notified</string>
+    <string name="qa_settings_title">Safety Settings</string>
+    <string name="qa_settings_desc">Debounce &amp; permissions</string>
+
+    <!-- Pairing Screen -->
+    <string name="pairing_title">Pair a Safety Device</string>
+    <string name="scanning">Scanning for nearby devices…</string>
+    <string name="btn_scan_again">Scan Again</string>
+    <string name="empty_devices_title">No Devices Found</string>
+    <string name="empty_devices_desc">Make sure your Tether tag or secondary device is turned on and in pairing mode.</string>
+    <string name="paired_badge">PAIRED</string>
+    <string name="tap_to_pair">Tap to pair</string>
+
+    <!-- Contacts Screen -->
+    <string name="contacts_title">Trusted Contacts</string>
+    <string name="btn_add_contact">Add Contact</string>
+    <string name="primary_badge">PRIMARY</string>
+    <string name="mark_as_primary">Set as primary</string>
+    <string name="empty_contacts_title">No Trusted Contacts</string>
+    <string name="empty_contacts_desc">Add at least one contact to receive SMS alerts with your location if your device disconnects.</string>
+    <string name="dialog_add_title">Add Trusted Contact</string>
+    <string name="label_name">Name</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Alert History</string>
+    <string name="empty_history_title">No Alerts Recorded</string>
+    <string name="empty_history_desc">Everything is quiet and safe. Past connection drops and test alerts will appear here.</string>
+    <string name="label_false_positive">Marked as False Positive</string>
+    <string name="btn_mark_false_positive">Mark False Positive</string>
+    <string name="alert_detail_title">Alert Details</string>
+    <string name="label_location">Last Known Location:</string>
+    <string name="label_notified">Contacts Notified:</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Safety &amp; System Settings</string>
+    <string name="section_sensitivity">Disconnect Sensitivity</string>
+    <string name="label_debounce">Debounce Delay: %1$d seconds</string>
+    <string name="desc_debounce">How long Tether waits after losing a Bluetooth signal before confirming a disconnect and alerting contacts.</string>
+    <string name="section_monitoring">Background Monitoring</string>
+    <string name="label_bg_monitor">Active Background Watch</string>
+    <string name="desc_bg_monitor">Keeps a persistent low-power service running to ensure instant disconnect detection.</string>
+    <string name="section_permissions">System Permissions</string>
+    <string name="perm_bluetooth">Bluetooth Access</string>
+    <string name="perm_location">Location Services</string>
+    <string name="perm_sms">SMS Dispatch</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_missing">Required</string>
+
+    <!-- Permission rationale (shown before the system dialogs) -->
+    <string name="perm_rationale_title">Why Tether needs these permissions</string>
+    <string name="perm_rationale_body">Bluetooth keeps Tether connected to your paired tag so it can notice a sudden separation. Location lets the alert SMS include your last known position. SMS lets Tether text your trusted contacts directly, even with no data connection. Notifications show that monitoring is active.</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_not_now">Not now</string>
+
+    <!-- Alert classifications -->
+    <string name="class_abrupt">Abrupt Disconnect</string>
+    <string name="class_gradual">Gradual Disconnect</string>
+    <string name="class_test">Test Alert</string>
+    <string name="location_unavailable">Location unavailable</string>
+    <string name="sync_never">Never</string>
+
+    <!-- SMS content -->
+    <string name="sms_alert_message">Tether ALERT: this phone was suddenly separated from its paired device \"%1$s\". Last known location: %2$s</string>
+    <string name="sms_test_message">Tether TEST: this is a test alert, no action needed. Paired device: \"%1$s\". Last known location: %2$s</string>
+    <string name="sms_location_unknown">unknown</string>
+
+    <!-- Notifications -->
+    <string name="channel_monitor_name">Background monitoring</string>
+    <string name="channel_monitor_desc">Persistent status while Tether watches your paired device</string>
+    <string name="channel_alert_name">Alerts</string>
+    <string name="channel_alert_desc">Confirmed disconnect alerts</string>
+    <string name="notif_monitor_title">Tether is watching</string>
+    <string name="notif_monitor_body">Monitoring the connection to your paired device</string>
+    <string name="notif_alert_title">Disconnect alert sent</string>
+    <string name="notif_test_alert_title">Test alert sent</string>
+    <string name="notif_alert_body">%1$d trusted contact(s) notified by SMS</string>
+</resources>

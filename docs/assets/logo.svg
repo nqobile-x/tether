@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Warm off-white background with rounded app-icon corners -->
+  <rect width="512" height="512" rx="116" fill="#FAFAF7" />
+
+  <!-- Connecting fluid curve: organic signal/pulse link -->
+  <path d="M 160 256 C 205 256, 215 176, 256 176 C 297 176, 307 336, 352 256"
+        fill="none"
+        stroke="#0F6E6E"
+        stroke-width="22"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+
+  <!-- Left Anchor Node (Soft Sky Blue) -->
+  <circle cx="160" cy="256" r="32" fill="#5FB8D6" />
+
+  <!-- Right Anchor Node (Deep Teal) -->
+  <circle cx="352" cy="256" r="32" fill="#0F6E6E" />
+</svg>

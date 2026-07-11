@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tether mark: two anchor nodes bridged by an organic pulse curve.
+     Original artwork is in 512-space, scaled into the adaptive icon safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="18"
+        android:translateY="18"
+        android:scaleX="0.140625"
+        android:scaleY="0.140625">
+        <!-- Pulse curve linking the two nodes -->
+        <path
+            android:pathData="M 160,256 C 205,256 215,176 256,176 C 297,176 307,336 352,256"
+            android:strokeColor="#0F6E6E"
+            android:strokeWidth="22"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Left anchor node, soft sky blue -->
+        <path
+            android:fillColor="#5FB8D6"
+            android:pathData="M 160,256 m -32,0 a 32,32 0 1,0 64,0 a 32,32 0 1,0 -64,0" />
+        <!-- Right anchor node, deep teal -->
+        <path
+            android:fillColor="#0F6E6E"
+            android:pathData="M 352,256 m -32,0 a 32,32 0 1,0 64,0 a 32,32 0 1,0 -64,0" />
+    </group>
+</vector>
