@@ -1,3 +1,6 @@
+
+
+
 <p align="center">
   <img src="docs/assets/logo.svg" alt="Tether logo" width="140" />
 </p>
@@ -35,7 +38,8 @@ The disconnect logic is intentionally rule-based and explainable in one sentence
 
 A 30 second walkthrough: Home status, pairing scan, trusted contacts, alert history detail, settings, and a live test alert.
 
-https://github.com/user-attachments/assets/d05e0409-dfc8-4865-b244-5e53a973a43b
+
+https://github.com/user-attachments/assets/19f244db-9375-46d7-a21d-a67aa729e332
 
 ## Try it live
 
