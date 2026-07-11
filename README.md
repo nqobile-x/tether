@@ -24,6 +24,12 @@ Built around a real commute, Rea Vaya, Gautrain, and Gaubus, daily, in Johannesb
 6. Every alert is logged locally and can be marked as a false positive afterwards to feed future tuning.
 
 The disconnect logic is intentionally rule-based and explainable in one sentence, no ML. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full design.
+##Video demo
+
+
+https://github.com/user-attachments/assets/d05e0409-dfc8-4865-b244-5e53a973a43b
+
+
 
 ## Screenshots
 
