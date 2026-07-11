@@ -31,6 +31,10 @@ The disconnect logic is intentionally rule-based and explainable in one sentence
 |---|---|
 | <img src="docs/assets/screenshot-home.png" width="260" /> | <img src="docs/assets/screenshot-history.png" width="260" /> |
 
+## Try it live
+
+Runs the actual APK in a real Android emulator, right in your browser, no install: [appetize.io/app/b_dvuwlumpp3kkxwzgtplclbaciu](https://appetize.io/app/b_dvuwlumpp3kkxwzgtplclbaciu)
+
 ## Demo
 
 A 30 second walkthrough (Home status, pairing scan, trusted contacts, alert history detail, settings, and a live test alert): [▶ docs/assets/demo.mp4](docs/assets/demo.mp4)
